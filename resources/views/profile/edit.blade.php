@@ -3,7 +3,7 @@
 @section('container')
 
     <div class="w-full text-white text-[22px] bg-zinc-800 font-bold p-4 sticky top-0 border-gray-800 border-b" style="background-color: #161B22">
-        {{-- Page Tittle --}} Profile
+        {{-- Page Tittle --}} Settings
     </div>
 
     <x-slot name="header">
