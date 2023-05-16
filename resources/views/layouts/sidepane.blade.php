@@ -4,14 +4,19 @@
     </div>
 
     <div class="w-full max-w-md my-4 p-4 rounded shadow sm:p-8 dark:bg-[#161B22] dark:border-gray-700">
-            <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">Ucup</a>
-            <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">Maklimahbiadab</a>
-            <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">tai</a>
-            <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">triokekalahan</a>
-            <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">gelutkita</a>
-            <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">kacausih</a>
-            <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">udahbng</a>
-            <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">kelas</a>
+        <div class="flex items-center justify-between mb-4">
+            <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Trending Tags</h5>
+        </div>
+        <div>
+            <a href="#" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Ucup</a>
+            <a href="#" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Maklimahbiadab</a>
+            <a href="#" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">TaiAyam</a>
+            <a href="#" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Triokekalahan</a>
+            <a href="#" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Gelutkita</a>
+            <a href="#" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Kacausih</a>
+            <a href="#" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Udahbng</a>
+            <a href="#" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Kelazzz</a>
+        </div>
     </div>
     
     <div class="w-full max-w-md my-4 p-4 rounded shadow sm:p-8 dark:bg-[#161B22] dark:border-gray-700">

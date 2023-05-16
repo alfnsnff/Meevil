@@ -16,7 +16,7 @@
                     <div class="w-full">
                         <div class="px-1 py-2 rounded-t-lg">
                             <label for="comment" class="sr-only">Your comment</label>
-                            <textarea id="comment" rows="4" class="w-full px-0 text-sm text-gray-900 border-0 bg-transparent focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="Write a comment..." required></textarea>
+                            <textarea id="comment" rows="3" class="resize-none w-full px-0 text-md text-gray-900 border-0 bg-transparent focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="What's funny now?" required></textarea>
                         </div>
                         <div class="flex items-center justify-between py-2 border-t dark:border-gray-600">
                             <div class="flex space-x-1">
@@ -34,7 +34,7 @@
                                 </button>
                             </div>
                             <div class="flex space-x-1">
-                                <button type="submit" class="inline-flex items-center py-1 px-4 text-sm font-medium text-center text-white bg-amber-500 rounded-full focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">
+                                <button type="submit" class="inline-flex items-center py-1 px-4 text-sm font-medium text-center text-gray-800 bg-amber-300 rounded-full focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-amber-500">
                                     Pop
                                 </button>
                             <</div>
