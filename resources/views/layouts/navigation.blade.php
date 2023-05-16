@@ -3,32 +3,35 @@
         <div class="p-4 py-3 px-3 my-3 font-bold text-white text-xl border-b border-gray-800">
             <H2>Meevil</H2>
         </div>
-        <a href="/dashboard" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer ">
+        <a href="/dashboard" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
             <i class="fa-solid fa-house pe-1" style="color: #ffffff;"></i>
             Home
         </a>
-        <a href="/explore" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer ">
+        <a href="/explore" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
             <i class="fa-sharp fa-solid fa-magnifying-glass pe-1" style="color: #ffffff;"></i>
             Explore
         </a>
-        <a href="/favorite" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer ">
+        <a href="/favorite" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
             <i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>
             Favorite
         </a>
-        <a href="#" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer ">
+        <a href="#" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
             <i class="fa-solid fa-gear pe-1" style="color: #ffffff;"></i>
-            Profile
+            Settings
         </a>
         <x-dropdown align="right" width="48">
             <x-slot name="trigger">
-                <button class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
+                <button class="inline-flex items-center px-3 py-2 space-x-4 text-sm leading-4 font-medium rounded-md text-white dark:text-white hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
+                    <div class="flex-shrink-0">
+                        <img class="w-8 h-8 rounded-full object-cover" src="/imgs/testimg.jpg" alt="Neil image">
+                    </div>
                     <div>{{ Auth::user()->name }}</div>
     
-                    <div class="ml-1">
+                    {{-- <div class="ml-1">
                         <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                         </svg>
-                    </div>
+                    </div> --}}
                 </button>
             </x-slot>
     
@@ -51,7 +54,6 @@
         </x-dropdown>
     </div>
 </nav>
-
 
 
 {{-- <nav x-data="{ open: false }" class="bg-white dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
