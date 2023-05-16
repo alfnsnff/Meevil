@@ -48,16 +48,14 @@
                             </div>
 
                             <div class="w-full max-w-md my-4 p-4 rounded shadow sm:p-8 dark:bg-[#161B22] dark:border-gray-700">
-                                <div class="" >
-                                    <a href="#" class="bg-blue-100 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-blue-900 dark:white">Ucup</a>
-                                    <a href="#" class="bg-blue-100 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-blue-900 dark:white">Maklimahbiadab</a>
-                                    <a href="#" class="bg-blue-100 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-blue-900 dark:white">tai</a>
-                                    <a href="#" class="bg-blue-100 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-blue-900 dark:white">triokekalahan</a>
-                                    <a href="#" class="bg-blue-100 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-blue-900 dark:white">Default</a>
-                                    <a href="#" class="bg-blue-100 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-blue-900 dark:white">Default</a>
-                                    <a href="#" class="bg-blue-100 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-blue-900 dark:white">Default</a>
-                                    <a href="#" class="bg-blue-100 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-blue-900 dark:white">Default</a>
-                                </div>
+                                    <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">Ucup</a>
+                                    <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">Maklimahbiadab</a>
+                                    <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">tai</a>
+                                    <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">triokekalahan</a>
+                                    <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">gelutkita</a>
+                                    <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">kacausih</a>
+                                    <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">udahbng</a>
+                                    <a href="#" class="bg-amber-500 text-white text-xs font-medium px-3 py-0.5 rounded-full dark:bg-amber-500 dark:white">kelas</a>
                             </div>
                             
                             <div class="w-full max-w-md my-4 p-4 rounded shadow sm:p-8 dark:bg-[#161B22] dark:border-gray-700">
