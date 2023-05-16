@@ -2,6 +2,9 @@
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
+
+    <h2 class="text-white text-xl font-bold text-center border-b mb-4 py-4" >Sign In to MEEVIL</h2>
+
     <form method="POST" action="{{ route('login') }}">
         @csrf
 
@@ -27,21 +30,26 @@
         <!-- Remember Me -->
         <div class="block mt-4">
             <label for="remember_me" class="inline-flex items-center">
-                <input id="remember_me" type="checkbox" class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-amber-600 shadow-sm focus:ring-amber-500 dark:focus:ring-amber-600 dark:focus:ring-offset-gray-800" name="remember">
+                <input id="remember_me" type="checkbox" class="ml-1 rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-amber-300 shadow-sm focus:ring-amber-300 dark:focus:ring-amber-300 dark:focus:ring-offset-gray-800" name="remember">
                 <span class="ml-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Remember me') }}</span>
             </label>
         </div>
-        <span class='text-slate-200 mt-2'>Daftar <a href="{{ route('register') }}" class="hover:text-amber-300 dark:hover:text-amber-300" >disini</a> </span>
-        <div class="flex items-center justify-end mt-4">
+
+        <div class="mt-4">
+            <x-cus-button class="mb-3">
+                {{ __('Log in') }}
+            </x-cus-button>
+
             @if (Route::has('password.request'))
-                <a class="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ route('password.request') }}">
+                <a class="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 " href="{{ route('password.request') }}">
                     {{ __('Forgot your password?') }}
                 </a>
             @endif
+        </div>
 
-            <x-primary-button class="ml-3">
-                {{ __('Log in') }}
-            </x-primary-button>
+        <div class="my-4 text-center">
+            <h4 class="text-gray-400">Don't Have Account? So Sad</h4> 
+            <a href="{{ route('register') }}" class="text-amber-100 hover:text-amber-300 dark:hover:text-amber-300" >Create Account.</a>
         </div>
     </form>
 </x-guest-layout>
