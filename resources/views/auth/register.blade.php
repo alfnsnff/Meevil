@@ -9,9 +9,15 @@
 
         <!-- Name -->
         <div>
-            <x-input-label for="name" :value="__('Name')" />
+            <x-input-label for="name" :value="__('Fullname')" />
             <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
             <x-input-error :messages="$errors->get('name')" class="mt-2" />
+        </div>
+
+        <div class="mt-4">
+            <x-input-label for="handle" :value="__('Username')" />
+            <x-text-input id="handle" class="block mt-1 w-full" type="text" name="handle" :value="old('email')" required autocomplete="username" />
+            <x-input-error :messages="$errors->get('handle')" class="mt-2" />
         </div>
 
         <!-- Email Address -->
