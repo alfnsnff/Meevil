@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PopsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,9 +19,9 @@ Route::get('/', function () {
     return view('ace');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/dashboard', function () {
-    return view('ace');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard', [Popscontroller::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::post('/dashboard', [PopsController::class, 'store']);
 
 Route::get('/explore', function () {
     return view('explore');
