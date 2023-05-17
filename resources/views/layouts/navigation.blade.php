@@ -1,21 +1,21 @@
 <nav class="w-3/12 h-[100vh] mx-auto relative">
     <div class="fixed w-80 ">
-        <div class="p-4 py-3 my-3 font-bold text-white text-xl">
+        <div class="p-4 py-3 my-3 font-bold text-white text-2xl">
             <H2>Meevil</H2>
         </div>
-        <a href="/dashboard" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
+        <a href="/dashboard" class="block w-full px-4 py-2 my-2 text-md text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
             <i class="fa-solid fa-house pe-1" style="color: #ffffff;"></i>
             Home
         </a>
-        <a href="/explore" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
+        <a href="/explore" class="block w-full px-4 py-2 my-2 text-md text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
             <i class="fa-sharp fa-solid fa-magnifying-glass pe-1" style="color: #ffffff;"></i>
             Explore
         </a>
-        <a href="/favorite" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
+        <a href="/favorite" class="block w-full px-4 py-2 my-2 text-md text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
             <i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>
             Favorite
         </a>
-        <a href="#" class="block w-full px-4 py-2 my-2 text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
+        <a href="#" class="block w-full px-4 py-2 my-2 text-md text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
             <i class="fa-solid fa-circle-user pe-1" style="color: #ffffff;"></i>
             Profile
         </a>
