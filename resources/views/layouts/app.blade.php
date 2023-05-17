@@ -33,7 +33,7 @@
 
                     </div>
 
-                    <div class="lg:block hidden lg:w-4/12 h-screen" >
+                    <div class="lg:block hidden lg:w-5/12 h-screen" >
                         
                     @include('layouts.sidepane')
                         
