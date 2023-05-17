@@ -44,9 +44,9 @@
             </div>
         </div>
     </div>
-        <div class="py-10 px-16">
+        <div class="mt-5">
                     {{-- Main Column --}}
-                    <div class="space-y-3 mb-16">
+                    <div class="space-y-3 px-16 py-5 border-b border-gray-800">
                         <div class="flex items-center space-x-4 px-1">
                             <div class="flex-shrink-0">
                                 <img class="w-11 h-11 rounded-full object-cover" src="/imgs/testimg.jpg" alt="Neil image">
@@ -61,20 +61,25 @@
                             </div>
                             <div class="inline-flex px-1 items-center text-base font-semibold text-gray-900 dark:text-white">
                                 {{--  --}}
-                                <i class="fa-solid fa-circle-chevron-down text-2xl" style="color: #ffffff;"></i>
+                                <i class="fa-solid fa-bars text-2xl" style="color: #ffffff;"></i>
                             </div>
                         </div>
                         
                         <img class="h-auto w-full rounded-lg" src="/imgs/testimg.jpg" alt="image description">
 
                         <div class="flex items-center space-x-4 px-4">
-                            <i class="fa-solid fa-comments" style="color: #ffffff;"></i>
-                            <i class="fa-solid fa-thumbs-up" style="color: #ffffff;"></i>
-                            <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                            
+                        <!-- Modal toggle -->
+                        
+                        <button data-modal-target="defaultModal" data-modal-toggle="defaultModal" class="block text-white hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-1 py-0.5 text-center " type="button">
+                            <i class="fa-solid fa-comments text-xl" style="color: #ffffff;"></i>
+                        </button>
+                            @include('components.postmodal')
+                            <i class="fa-solid fa-thumbs-up text-xl" style="color: #ffffff;"></i>
+                            <i class="fa-solid fa-star text-xl" style="color: #ffffff;"></i>
                         </div>
                     </div>
-                    {{-- <!-- --}}
-                    <div class="space-y-3">
+                    <div class="space-y-3 px-16 py-5 border-b border-gray-800">
                         <div class="flex items-center space-x-4 px-1">
                             <div class="flex-shrink-0">
                                 <img class="w-11 h-11 rounded-full object-cover" src="/imgs/testimg.jpg" alt="Neil image">
@@ -89,20 +94,24 @@
                             </div>
                             <div class="inline-flex px-1 items-center text-base font-semibold text-gray-900 dark:text-white">
                                 {{--  --}}
-                                <i class="fa-solid fa-circle-chevron-down text-2xl" style="color: #ffffff;"></i>
+                                <i class="fa-solid fa-bars text-2xl" style="color: #ffffff;"></i>
                             </div>
                         </div>
                         
                         <img class="h-auto w-full rounded-lg" src="/imgs/testimg.jpg" alt="image description">
 
                         <div class="flex items-center space-x-4 px-4">
-                            <i class="fa-solid fa-comments" style="color: #ffffff;"></i>
-                            <i class="fa-solid fa-thumbs-up" style="color: #ffffff;"></i>
-                            <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                            
+                        <!-- Modal toggle -->
+                        
+                        <button data-modal-target="defaultModal" data-modal-toggle="defaultModal" class="block text-white hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-1 py-0.5 text-center " type="button">
+                            <i class="fa-solid fa-comments text-xl" style="color: #ffffff;"></i>
+                        </button>
+                            @include('components.postmodal')
+                            <i class="fa-solid fa-thumbs-up text-xl" style="color: #ffffff;"></i>
+                            <i class="fa-solid fa-star text-xl" style="color: #ffffff;"></i>
                         </div>
-                    </div> 
-                {{-- --> --}}
-
+                    </div>
                     
                 </div>
 

@@ -1,4 +1,4 @@
-<div class="fixed px-3" >
+<div class="fixed px-4" >
     <div class="w-full mt-3 lg:flex items-center hidden">
         <input class="appearance-none w-full border-0 p-3 rounded bg-[#161B22] text-gray-100 placeholder-gray-500 leading-tight focus:ring-0" type="text" placeholder="Search Here" >
     </div>
