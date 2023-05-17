@@ -12,33 +12,31 @@
                 <img class="w-11 h-11 rounded-full object-cover" src="/imgs/testimg.jpg" alt="Neil image">
             </div>
             <div class="flex-1 min-w-0">
-                <form>
+                <form action="{{ url('/dashboard') }}" method="post" enctype="multipart/form-data">
+                    @csrf
                     <div class="w-full">
-                        <div class="px-1 py-2 rounded-t-lg">
-                            <label for="comment" class="sr-only">Your comment</label>
-                            <textarea id="comment" rows="3" class="resize-none w-full px-0 text-md text-gray-900 border-0 bg-transparent focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="What's funny now?" required></textarea>
-                        </div>
-                        <div class="flex items-center justify-between py-2 border-t dark:border-gray-600">
-                            <div class="flex space-x-1">
-                                <button type="button" class="inline-flex justify-center text-gray-500 rounded cursor-pointer hover:text-gray-900 dark:text-gray-400 dark:hover:text-white ">
-                                    <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd"></path></svg>
-                                    <span class="sr-only">Attach file</span>
-                                </button>
-                                <button type="button" class="inline-flex justify-center text-gray-500 rounded cursor-pointer hover:text-gray-900 0 dark:text-gray-400 dark:hover:text-white ">
-                                    <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
-                                    <span class="sr-only">Set location</span>
-                                </button>
-                                <button type="button" class="inline-flex justify-center text-gray-500 rounded cursor-pointer hover:text-gray-900 dark:text-gray-400 dark:hover:text-white ">
-                                    <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"></path></svg>
-                                    <span class="sr-only">Upload image</span>
-                                </button>
+                            <div class="px-1 py-2 rounded-t-lg">
+                                <label for="tweet" class="sr-only">Your comment</label>
+                                <textarea id="tweet" name="tweet" rows="3" class="resize-none w-full px-0 text-md text-gray-900 border-0 bg-transparent focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="What's funny now?" required></textarea>
                             </div>
-                            <div class="flex space-x-1">
-                                <button type="submit" class="inline-flex items-center py-1 px-4 text-sm font-medium text-center text-gray-800 bg-amber-300 rounded-full focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-amber-500">
-                                    Pop
-                                </button>
-                            <</div>
-                        </div>
+                            <div class="flex items-center justify-between py-2 border-t dark:border-gray-600">
+                                <div class="flex space-x-1">
+                                    {{-- <button type="button" class="inline-flex justify-center text-gray-500 rounded cursor-pointer hover:text-gray-900 dark:text-gray-400 dark:hover:text-white ">
+                                        <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd"></path></svg>
+                                        <span class="sr-only">Attach file</span>
+                                    </button> --}}
+
+                                    <input class="" name="file" id="file_input" type="file">
+                                    {{-- <button type="button" class="inline-flex justify-center text-gray-500 rounded cursor-pointer hover:text-gray-900 dark:text-gray-400 dark:hover:text-white ">
+                                        <i class="fa-solid fa-image" style="color: #ffffff;"></i>
+                                    </button> --}}
+                                </div>
+                                <div class="flex space-x-1">
+                                    <button type="submit" class="inline-flex items-center py-1 px-4 text-sm font-medium text-center text-gray-800 bg-amber-300 rounded-full focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-amber-500">
+                                        Pop
+                                    </button>
+                                <</div>
+                            </div>
                     </div>
                 </form>
             </div>
