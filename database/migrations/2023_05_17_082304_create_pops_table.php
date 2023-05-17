@@ -13,12 +13,13 @@ return new class extends Migration
     {
         Schema::create('pops', function (Blueprint $table) {
             $table->id();
-            // $table->string('name');
-            // $table->string('image');
-            // $table->string('handle');
+            $table->foreignId('user_id')->constrained('users', 'id');
             $table->text('tweet');
             $table->string('file')->nullable();
             $table->boolean('is_video')->nullable();
+            // $table->string('name');
+            // $table->string('image');
+            // $table->string('handle');
             // $table->string('comments');
             // $table->string('retweets');
             // $table->string('likes');

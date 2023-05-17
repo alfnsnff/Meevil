@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use illuminate\Support\Facades\Auth;
 use App\Models\Pops;
 
 class PopsController extends Controller
@@ -31,6 +32,7 @@ class PopsController extends Controller
         }
 
         $pop = new Pops;
+        $pop->user_id = Auth::user()->id;
         $pop->tweet = $request->input('tweet');
         if ($fileName) {
             $pop->file = $path . $fileName;

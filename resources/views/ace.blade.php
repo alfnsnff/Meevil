@@ -32,7 +32,7 @@
                                     </button> --}}
                                 </div>
                                 <div class="flex space-x-1">
-                                    <button type="submit" class="inline-flex items-center py-1 px-4 text-sm font-medium text-center text-gray-800 bg-amber-300 rounded-full focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-amber-500">
+                                    <button type="submit" class="inline-flex items-center py-1 px-4 text-sm font-medium text-center text-gray-800 bg-amber-300 rounded-full hover:bg-amber-500">
                                         Pop
                                     </button>
                                 <</div>
