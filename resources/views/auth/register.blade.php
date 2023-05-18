@@ -1,7 +1,7 @@
 <x-guest-layout>
 
 
-    <h2 class="text-white text-xl text-center font-bold border-b mb-4 py-4" >Create Your Account</h2>
+    <h2 class="text-yellow-300 text-xl text-center font-bold border-b mb-4 py-4" >Create Your Account</h2>
 
 
     <form method="POST" action="{{ route('register') }}">
