@@ -15,7 +15,7 @@
             <i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>
             Favorite
         </a>
-        <a href="#" class="block w-full px-4 py-2 my-2 text-md text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
+        <a href="/profile" class="block w-full px-4 py-2 my-2 text-md text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">
             <i class="fa-solid fa-circle-user pe-1" style="color: #ffffff;"></i>
             Profile
         </a>
@@ -23,10 +23,10 @@
             <x-slot name="trigger">
                 <button class="inline-flex items-center px-3 py-2 space-x-4 text-sm leading-4 font-medium rounded-md text-white dark:text-white hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
                     <div class="flex-shrink-0">
-                        <img class="w-10 h-10 rounded-full object-cover" src="/imgs/testimg.jpg" alt="Neil image">
+                        <img class="w-10 h-10 rounded-full object-cover" src="{{ illuminate\Support\Facades\Auth::user()->avatar }}" alt="Neil image">
                     </div>
                     <div class="text-left">
-                        <div class="text-xl">{{ Auth::user()->name }}</div>
+                        <div class="text-md">{{ Auth::user()->name }}</div>
                         <div class="flex text-sm font-small dark:text-gray-500"><p>@</p>{{ Auth::user()->handle }}</div>
                     </div>
     

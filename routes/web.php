@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PopsController;
+use App\Http\Controllers\ExploreController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,15 +21,24 @@ Route::get('/', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/dashboard', [Popscontroller::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard/fav{id}', [Popscontroller::class, 'addFavorites'])->middleware(['auth', 'verified']);
+Route::get('/dashboard/des{id}', [Popscontroller::class, 'delFavorites'])->middleware(['auth', 'verified']);
 
-Route::post('/dashboard', [PopsController::class, 'store']);
+Route::post('/dashboard', [PopsController::class, 'store'])->middleware(['auth', 'verified']);
+Route::get('/profile/destroy{id}', [PopsController::class, 'destroy'])->middleware(['auth', 'verified']);
 
-Route::get('/explore', function () {
-    return view('explore');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::resource("/explore", ExploreController::class)->middleware(['auth', 'verified']);
+
+// Route::get('/explore', function () {
+//     return view('explore');
+// })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/favorite', function () {
     return view('favorite');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::get('/profile', function () {
+    return view('userProfile');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
