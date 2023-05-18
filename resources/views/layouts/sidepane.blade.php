@@ -36,8 +36,6 @@
                             <div class="flex-1 min-w-0">
                                 <p class="text-sm font-medium text-yellow-300 truncate dark:text-white">
                                     Martabak Hambar
-                                <p class="text-sm font-medium text-white truncate dark:text-white">
-                                    Neil Sims
                                 </p>
                                 <p class="text-sm text-gray-500 truncate dark:text-gray-400">
                                     @mabar344
@@ -56,8 +54,6 @@
                             <div class="flex-1 min-w-0">
                                 <p class="text-sm font-medium text-yellow-300 truncate dark:text-white">
                                     Tupai Albino
-                                <p class="text-sm font-medium text-white truncate dark:text-white">
-                                    Bonnie Green
                                 </p>
                                 <p class="text-sm text-gray-500 truncate dark:text-gray-400">
                                     @apaajabisa

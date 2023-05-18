@@ -17,7 +17,7 @@
                     <div class="w-full">
                             <div class="px-1 py-2 rounded-t-lg">
                                 <label for="tweet" class="sr-only">Your comment</label>
-                                <textarea id="tweet" name="tweet" rows="3" class="resize-none w-full px-0 text-md text-gray-900 border-0 bg-transparent focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="What's funny now?" required></textarea>
+                                <textarea id="tweet" name="tweet" rows="3" class="resize-none w-full px-0 text-md text-white border-0 bg-transparent focus:ring-0 dark:text-white dark:placeholder-white" placeholder="What's funny now?" required></textarea>
                             </div>
                             <div class="flex items-center justify-between py-2 border-t dark:border-gray-600">
                                 <div class="flex space-x-1">
@@ -77,7 +77,7 @@
                             <i class="fa-solid fa-star" style="color: #ffffff;"></i>
                         </div>
                     </div>
-                    {{-- <!-- --}}
+                    -- <!-- --}}
                     <div class="space-y-3">
                         <div class="flex items-center space-x-4 px-1">
                             <div class="flex-shrink-0">
@@ -108,5 +108,6 @@
                     @endforeach
                     
                 </div>
-
+                                    
                 @endsection
+                                    
