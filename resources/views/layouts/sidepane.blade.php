@@ -1,4 +1,4 @@
-<div class="fixed px-3" >
+<div class="fixed px-4" >
     <div class="w-full mt-3 lg:flex items-center hidden">
         <input class="appearance-none w-full border-0 p-3 rounded bg-[#161B22] text-gray-100 placeholder-gray-500 leading-tight focus:ring-0" type="text" placeholder="Search Here" >
     </div>
@@ -34,7 +34,7 @@
                                 <img class="w-8 h-8 rounded-full object-cover" src="/imgs/testimg.jpg" alt="Neil image">
                             </div>
                             <div class="flex-1 min-w-0">
-                                <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                <p class="text-sm font-medium text-white truncate dark:text-white">
                                     Neil Sims
                                 </p>
                                 <p class="text-sm text-gray-500 truncate dark:text-gray-400">
@@ -52,7 +52,7 @@
                                 <img class="w-8 h-8 rounded-full object-cover" src="/imgs/testimg.jpg" alt="Bonnie image">
                             </div>
                             <div class="flex-1 min-w-0">
-                                <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                <p class="text-sm font-medium text-white truncate dark:text-white">
                                     Bonnie Green
                                 </p>
                                 <p class="text-sm text-gray-500 truncate dark:text-gray-400">

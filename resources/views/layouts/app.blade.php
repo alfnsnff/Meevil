@@ -17,7 +17,7 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans antialiased" style="background-color: #0D1117">
+    <body class="font-sans antialiased bg-[#0D1117]">
         <div class="min-h-screen" >
                 <div class="max-w-[1400px] flex mx-auto" >
 
@@ -33,7 +33,7 @@
 
                     </div>
 
-                    <div class="lg:block hidden lg:w-4/12 h-screen" >
+                    <div class="lg:block hidden lg:w-5/12 h-screen" >
                         
                     @include('layouts.sidepane')
                         
@@ -41,5 +41,6 @@
                 </div>
 
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
     </body>
 </html>
