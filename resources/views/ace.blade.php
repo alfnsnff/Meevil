@@ -26,7 +26,7 @@
                                         <span class="sr-only">Attach file</span>
                                     </button> --}}
 
-                                    <input class="block text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-amber-300 dark:text-gray-800 focus:outline-none dark:bg-amber-300 dark:border-gray-600 dark:placeholder-gray-800" id="file_input" name="file" type="file">
+                                    <input class="block text-sm text-gray-900 border border-amber-300 rounded-md cursor-pointer bg-amber-300 dark:text-gray-800 focus:outline-none dark:bg-amber-300 dark:border-amber-600 dark:placeholder-amber-800" id="file_input" name="file" type="file">
                                     {{-- <button type="button" class="inline-flex justify-center text-gray-500 rounded cursor-pointer hover:text-gray-900 dark:text-gray-400 dark:hover:text-white ">
                                         <i class="fa-solid fa-image" style="color: #ffffff;"></i>
                                     </button> --}}
@@ -94,47 +94,6 @@
                         @endif
 
                         <div class="flex items-center space-x-4 px-1">    
-                            {{-- <button data-modal-target="defaultModal" data-modal-toggle="defaultModal" class="block text-white hover:bg-gray-800 focus:outline-none font-medium rounded-full text-sm px-1 py-0.5 text-center " type="button">
-                                <i class="fa-solid fa-comments text-md" style="color: #ffffff;"></i>
-                            </button>    --}}
-                        <!-- Modal toggle -->
-                        {{-- <div class="">
-                            <div id="defaultModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
-                                <div class="relative w-full max-w-2xl max-h-full">
-                                    <!-- Modal content -->
-                                    <div class="relative bg-white rounded-lg shadow dark:bg-[#0D1117]">
-                                        <!-- Modal body -->
-                                        <div class="flex p-4 space-x-4">
-                                            <div class="w-full rounded shadow dark:bg-[#161B22] dark:border-gray-700">
-                                                <div class="flex items-center p-2 px-4 mb-2 border-b dark:border-gray-800 justify-between ">
-                                                    <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Comments</h5>
-                                                </div>
-                                                <div>  
-                                                <form action="{{ url('/dashboard') }}" method="post">
-                                                    <div class="w-full rounded-lg bg-gray-50 dark:bg-[#161B22] dark:border-gray-600">
-                                                        <div class="px-4 py-2 bg-white rounded-t-lg dark:bg-[#161B22]">
-                                                            <label for="comment" class="sr-only">Your comment</label>
-                                                            <textarea id="comment" rows="4" class="w-full px-0 text-sm text-gray-900 bg-white border-0 dark:bg-[#161B22] focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="Write a comment..." required></textarea>
-                                                        </div>
-                                                        <div class="flex items-center justify-between px-3 py-2 border-t dark:border-gray-600">
-                                                            <button type="submit" class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-gray-800 bg-amber-300 rounded-lg hover:bg-amber-500">
-                                                                Post comment
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-
-                        {{-- <div>
-                            <i class="fa-solid fa-thumbs-up text-md" style="color: #ffffff;"></i>
-                        </div> --}}
-
                         <div>   
                             @if ($pop->is_fav === 'false')
                             <a href="/dashboard/fav{{$pop->id}}">

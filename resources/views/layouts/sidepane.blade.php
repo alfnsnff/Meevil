@@ -14,6 +14,8 @@
             <a href="{{ url('/explore?search=triokekalahan') }}" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Triokekalahan</a>
             <a href="{{ url('/explore?search=bangg') }}" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Bangg</a>
             <a href="{{ url('/explore?search=kacausih') }}" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Kacausih</a>
+            <a href="{{ url('/explore?search=maklimah') }}" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Maklimah</a>
+            <a href="{{ url('/explore?search=biadab') }}" class="bg-amber-300 text-gray-800 text-xs font-medium px-2 py-0.5 rounded-full dark:bg-amber-300 dark:hover:bg-amber-500">Biadab</a>
         </div>
     </div>
     
