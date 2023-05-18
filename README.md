@@ -14,6 +14,8 @@ php artisan key:generate
 
 php artisan migrate
 
+php arisan migrate:fresh --seed
+
 php artisan storage:link
 
 ```
@@ -23,7 +25,10 @@ php artisan storage:link
 ```bash
 npm run dev
 
+```
+```bash
 php artisan serve
+
 ```
 
 ## Web Description
