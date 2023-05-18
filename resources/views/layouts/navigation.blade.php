@@ -1,6 +1,6 @@
 <nav class="w-3/12 h-[100vh] mx-auto relative">
     <div class="fixed w-80 ">
-        <div class="p-4 py-3 my-3 font-bold text-white text-2xl">
+        <div class="p-4 py-3 px-3 my-3 font-bold text-yellow-300 text-xl border-b border-gray-800">
             <H2>Meevil</H2>
         </div>
         <a href="/dashboard" class="block w-full px-4 py-2 my-2 text-md text-white bg-blue-70 rounded-full cursor-pointer hover:text-gray-700 dark:hover:text-gray-300">

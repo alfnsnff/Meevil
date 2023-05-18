@@ -52,7 +52,7 @@
                             </div>
                             <div class="flex-1 min-w-0">
                                 <p class="text-md font-medium text-white truncate dark:text-white">
-                                    {{ App\Models\User::find($pop->user_id)->name }}
+                                    Neil Sims
                                 </p>
                                 <p class="text-sm text-gray-500 truncate dark:text-gray-400">
                                     {{ App\Models\User::find($pop->user_id)->handle }}
@@ -72,8 +72,30 @@
                             <img class="h-auto w-full rounded-xl" src="{{ asset('storage/'.$pop->file) }}" alt="image description">
                         @endif
                         <div class="flex items-center space-x-4 px-4">
-                            
-                        <!-- Modal toggle -->
+                            <i class="fa-solid fa-comments" style="color: #ffffff;"></i>
+                            <i class="fa-solid fa-thumbs-up" style="color: #ffffff;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                    {{-- <!-- --}}
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-4 px-1">
+                            <div class="flex-shrink-0">
+                                <img class="w-11 h-11 rounded-full object-cover" src="/imgs/testimg.jpg" alt="Neil image">
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <p class="text-md font-medium text-gray-900 truncate dark:text-white">
+                                    Neil Sims
+                                </p>
+                                <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                                    email@windster.com
+                                </p>
+                            </div>
+                            <div class="inline-flex px-1 items-center text-base font-semibold text-gray-900 dark:text-white">
+                                {{--  --}}
+                                <i class="fa-solid fa-circle-chevron-down text-2xl" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
                         
                         <button data-modal-target="defaultModal" data-modal-toggle="defaultModal" class="block text-white hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-1 py-0.5 text-center " type="button">
                             <i class="fa-solid fa-comments text-xl" style="color: #ffffff;"></i>
