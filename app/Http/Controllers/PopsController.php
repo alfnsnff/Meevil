@@ -67,13 +67,6 @@ class PopsController extends Controller
             $file->storeAs($path, $fileName, 'public');
         }
 
-        // $pop->name = 'Mokammel Hossain Tanvir';
-        // $pop->handle = '@mokammeltanvir';
-        // $pop->image = 'https://pbs.twimg.com/profile_images/1458760157945491460/mT93gmJh_400x400.jpg';
-        // $pop->comments = rand(5, 500);
-        // $pop->repops = rand(5, 500);
-        // $pop->likes = rand(5, 500);
-        // $pop->analytics = rand(5, 500);
         $pop->save();
 
         $user->pops += 1;
@@ -82,12 +75,7 @@ class PopsController extends Controller
         return redirect('/dashboard');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function destroy($id)
     {
         $user = Auth::user();
