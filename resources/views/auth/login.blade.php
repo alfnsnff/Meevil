@@ -3,7 +3,7 @@
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
 
-    <h2 class="text-white text-xl font-bold text-center border-b border-amber-500 mb-4 py-4 dark:text-gray-400" >Sign In to MEEVIL</h2>
+    <h2 class="text-yellow-300 text-xl font-bold text-center border-b mb-4 py-4" >Sign In to MEEVIL</h2>
 
     <form method="POST" action="{{ route('login') }}">
         @csrf
@@ -48,8 +48,8 @@
         </div>
 
         <div class="my-4 text-center">
-            <h4 class="dark:text-gray-400">Don't Have Account? So Sad</h4> 
-            <a href="{{ route('register') }}" class="text-amber-100 hover:text-amber-300 dark:hover:text-amber-300" >Create Account.</a>
+            <h4 class="text-white">Don't Have Account? So Sad</h4> 
+            <a href="{{ route('register') }}" class="text-yellow-300 hover:text-amber-300 dark:hover:text-amber-300" >Create Account.</a>
         </div>
     </form>
 </x-guest-layout>
