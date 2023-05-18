@@ -52,7 +52,7 @@
                                 <img class="w-11 h-11 rounded-full object-cover" src="/imgs/testimg.jpg" alt="Neil image">
                             </div>
                             <div class="flex-1 min-w-0">
-                                <p class="text-md font-medium text-gray-900 truncate dark:text-white">
+                                <p class="text-md font-medium text-white truncate dark:text-white">
                                     Neil Sims
                                 </p>
                                 <p class="text-sm text-gray-500 truncate dark:text-gray-400">
@@ -80,7 +80,7 @@
                                 <img class="w-11 h-11 rounded-full object-cover" src="/imgs/testimg.jpg" alt="Neil image">
                             </div>
                             <div class="flex-1 min-w-0">
-                                <p class="text-md font-medium text-gray-900 truncate dark:text-white">
+                                <p class="text-md font-medium text-white truncate dark:text-white">
                                     Neil Sims
                                 </p>
                                 <p class="text-sm text-gray-500 truncate dark:text-gray-400">

@@ -38,7 +38,7 @@
                                     Martabak Hambar
                                 </p>
                                 <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                                    @apaaja 
+                                    @apaaja55 
                                 </p>
                             </div>
                             <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
@@ -53,7 +53,7 @@
                             </div>
                             <div class="flex-1 min-w-0">
                                 <p class="text-sm font-medium text-yellow-300 truncate dark:text-white">
-                                    Matcha Velvet
+                                    Bolu goreng
                                 </p>
                                 <p class="text-sm text-gray-500 truncate dark:text-gray-400">
                                     @pengubahmood
@@ -74,7 +74,7 @@
                                     Affaan tuh
                                 </p>
                                 <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                                    @hahahaha
+                                    @hahahaha123
                                 </p>
                             </div>
                             <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
