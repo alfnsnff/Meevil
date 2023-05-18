@@ -22,9 +22,6 @@
     <div class="w-full max-w-md my-4 p-4 rounded shadow sm:p-8 dark:bg-[#161B22] dark:border-gray-700">
         <div class="flex items-center justify-between mb-4">
             <h5 class="text-white font-bold leading-none text-gray-900 dark:text-white">Top Leaderboards</h5>
-            {{-- <a href="#" class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
-                View all
-            </a> --}}
         </div>
         <div class="flow-root">
                 <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
