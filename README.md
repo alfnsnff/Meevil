@@ -1,7 +1,7 @@
 
-# Preserve
+# Prerequisite
 
-## First Explotion
+## First
 
 ```bash
 composer install 
@@ -14,9 +14,11 @@ php artisan key:generate
 
 php artisan migrate
 
+php artisan storage:link
+
 ```
 
-## Run
+## Runnn!!
 
 ```bash
 npm run dev
@@ -26,13 +28,12 @@ php artisan serve
 
 ## Web Description
 
-```bash
+
 Meevil adalah sebuah platform web yang dirancang khusus untuk menghadirkan hiburan melalui konten-konten humor. 
 Mirip dengan Twitter, Meevil menyediakan pengguna dengan ruang untuk berbagi postingan-postingan lucu, mengomentari, serta saling berinteraksi dengan anggota komunitas.
 Dalam lingkungan yang ceria dan penuh kegembiraan, pengguna dapat menjelajahi berbagai postingan yang mengundang tawa, mulai dari meme, lelucon, hingga video pendek yang menghibur. 
 Fitur-fitur yang intuitif dan mudah digunakan di Meevil memungkinkan pengguna untuk dengan cepat menemukan konten-konten humor terbaru, membagikannya dengan teman-teman, dan bahkan menandai favorit mereka. 
 Dengan berbagai ragam konten yang diperbarui secara berkala, Meevil menjadi tujuan utama bagi para pencari tawa dan menghadirkan pengalaman online yang menyenangkan dan menghibur.
-```
 
 # Laravel Readme.md
 
