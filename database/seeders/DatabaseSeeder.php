@@ -82,5 +82,10 @@ class DatabaseSeeder extends Seeder
             'tweet' => 'Ngakak ahahaha!!!',
             'file' => '../vids/meme10.mp4' ,
         ]);
+        \App\Models\Pops::create([
+            'user_id' => 2,
+            'tweet' => 'Maklimah biadab sangat',
+            'file' => '../vids/meme11.mp4' ,
+        ]);
     }
 }
